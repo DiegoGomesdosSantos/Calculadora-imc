@@ -1,0 +1,49 @@
+h1,h2{
+    color: 	#C0C0C0;
+}
+h1{
+    margin-block-start: 0;
+}
+
+.caixa
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+input
+{
+   height: 1.5em;
+   border-radius: 0.6em;
+}
+
+.area{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #363636;
+    display: inline-flex;
+    border-radius: 6%;
+    padding: 1em;
+}
+
+button
+{
+   height: 3em; 
+   width: 100%;
+   border-radius: 1em;
+   background-color:#006400;
+   border: none;
+   color:ivory;
+   
+}
+button :hover{
+    background-color: chartreuse;
+}
+textarea{
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 0.6em;
+}
